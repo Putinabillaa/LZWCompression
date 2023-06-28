@@ -21,7 +21,7 @@ const App = () => {
   const [selectedOption, setSelectedOption] = useState('0');
 
   const compressText = async() => {
-    const response = await fetch('/api/compress', {
+    const response = await fetch('https://putinabilla.pythonanywhere.com//api/compress', {
       method: 'POST',
       headers: {
         'Content-Type': 'application/json',
@@ -34,7 +34,7 @@ const App = () => {
   };
 
   const decompressText = async() => {
-    const response = await fetch('/api/decompress', {
+    const response = await fetch('https://putinabilla.pythonanywhere.com/api/decompress', {
       method: 'POST',
       headers: {
         'Content-Type': 'application/json',
