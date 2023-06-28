@@ -62,7 +62,7 @@
   margin: 0;
 }
 
-@media (max-width: 768px) {
+@media (max-width: 1180px) {
   .page {
     grid-template-columns: auto;
     grid-template-rows: repeat(4, auto);
@@ -86,6 +86,7 @@
 
   .page .text-box {
     width: 40%;
+    height: 25px;
     margin: 10px auto;
   }
   .container .wrapper {
