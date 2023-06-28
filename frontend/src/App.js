@@ -21,7 +21,7 @@ const App = () => {
   const [selectedOption, setSelectedOption] = useState('0');
 
   const compressText = async() => {
-    const response = await fetch('http://127.0.0.1:8000/api/compress', {
+    const response = await fetch('/api/compress', {
       method: 'POST',
       headers: {
         'Content-Type': 'application/json',

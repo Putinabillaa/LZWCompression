@@ -2,10 +2,6 @@ from django.http import JsonResponse
 from django.views.decorators.csrf import csrf_exempt
 from .lzw import compress, decompress
 import json
-from django.shortcuts import render
-
-def home(request):
-    return render(request, 'index.html')
 
 @csrf_exempt
 def compress_text(request):
