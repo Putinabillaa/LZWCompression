@@ -15,10 +15,9 @@ Including another URLconf
     2. Add a URL to urlpatterns:  path('blog/', include('blog.urls'))
 """
 from django.urls import path
-from .views import compress_text, decompress_text
+from .views import compress_text, decompress_text, home
 
 urlpatterns = [
-    # path('', compress_text, name='home'),
     path('api/compress', compress_text, name='compress_text'),
     path('api/decompress', decompress_text, name='decompress_text'),
 ]
