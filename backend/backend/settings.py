@@ -25,7 +25,7 @@ SECRET_KEY = "django-insecure-zulj-$c%9roy^idc=4z(ao@#58(8wh!2hx%rst4amucolzn@zq
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = False
 
-ALLOWED_HOSTS = ['lzw-compression-tau.vercel.app']
+ALLOWED_HOSTS = ['*']
 
 
 # Application definition
