@@ -34,7 +34,7 @@ const App = () => {
   };
 
   const decompressText = async() => {
-    const response = await fetch('http://127.0.0.1:8000/api/decompress', {
+    const response = await fetch('/api/decompress', {
       method: 'POST',
       headers: {
         'Content-Type': 'application/json',
